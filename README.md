@@ -158,6 +158,7 @@ The goal was to **reduce cart abandonment** and **increase checkout conversion r
 I’m a Business Analyst passionate about **bridging business problems and technical solutions**.
 This repo is part of my **portfolio projects**, where I simulate real-world BA case studies.
 
-💼 [LinkedIn](#) | 📧 [Email](#) | 🌐 [Portfolio Website](#)
+💼 [LinkedIn](#) | 📧 [Email](#) | 🌐 [Portfolio Website
+](#)
 
 ---

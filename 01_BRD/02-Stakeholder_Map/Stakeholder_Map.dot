@@ -1,0 +1,26 @@
+digraph StakeholderMap {
+    rankdir=LR;
+    node [shape=box, style=rounded, fontname="Helvetica"];
+
+    // Core Stakeholders
+    BusinessAnalyst [label="Business Analyst\n(Requirements Owner)", shape=ellipse, style=filled, fillcolor=lightblue];
+    Operations [label="Operations Team\n(Day-to-Day Users)"];
+    IT [label="IT/Tech Team\n(System Support)"];
+    Finance [label="Finance Dept.\n(Compliance & Budget)"];
+    Customers [label="End Customers\n(External Users)"];
+    Compliance [label="Compliance/Legal\n(Regulatory Oversight)"];
+    Management [label="Senior Management\n(Project Sponsors)"];
+
+    // Relationships
+    BusinessAnalyst -> Operations [label="Gathers AS-IS/TO-BE flows"];
+    BusinessAnalyst -> IT [label="Validates feasibility"];
+    BusinessAnalyst -> Finance [label="Aligns on cost & ROI"];
+    BusinessAnalyst -> Customers [label="Captures pain points"];
+    BusinessAnalyst -> Compliance [label="Ensures policy fit"];
+    BusinessAnalyst -> Management [label="Reports progress"];
+
+    // Cross-links
+    IT -> Operations [label="System support"];
+    Finance -> Management [label="Budget approval"];
+    Compliance -> Management [label="Regulatory updates"];
+}
