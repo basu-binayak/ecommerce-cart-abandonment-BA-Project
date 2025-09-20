@@ -161,16 +161,3 @@ This repo is part of my **portfolio projects**, where I simulate real-world BA c
 💼 [LinkedIn](#) | 📧 [Email](#) | 🌐 [Portfolio Website](#)
 
 ---
-
-```
-
----
-
-⚡ Tip: once you upload, you can make the README visually appealing by:
-
-* Adding **emojis** (like I did above).
-* Embedding **images/diagrams** with `![](./assets/journey_map.png)` inline.
-* Linking directly to `.md`, `.sql`, `.pdf` files inside your repo.
-
----
-```
